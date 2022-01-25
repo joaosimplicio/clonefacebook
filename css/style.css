@@ -46,6 +46,7 @@ hr {
 .sobre {
   grid-area: sobre;
 }
+
 .formulario {
   grid-area: formulario;
   grid-row: 2;
@@ -151,7 +152,11 @@ hr {
 }
 
 .footer ul li a {
-  color: #8a8d91;
+  color: #8a8d94;
+}
+
+.footer ul li a:hover {
+  text-decoration: underline;
 }
 
 .footer .your {
@@ -166,7 +171,26 @@ hr {
 }
 
 .lista-2 p {
+  color: #8a8d94;
   padding-top: 20px;
+}
+
+.warning {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.warning p {
+  font-size: 3rem;
+  color: blue;
+}
+
+.warning p:nth-child(1) {
+  padding-top: 30px;
+}
+
+.warning p + p {
+  padding: 30px 0;
 }
 
 /*  RESPONSIVIDADE */
@@ -185,9 +209,7 @@ hr {
     justify-self: center;
     box-sizing: border-box;
   }
-  .sobre img {
-    left: 20px;
-  }
+
   .sobre h2 {
     max-width: 30ch;
     justify-self: center;
@@ -217,13 +239,16 @@ hr {
     width: 300px;
   }
 
+  .btn-2 {
+    width: 60%;
+  }
+
   .create {
     width: 300px;
     padding-bottom: 40px;
   }
 
   .footer ul {
-    max-width: 300px;
     padding: 0px 10px;
   }
   .lista-2 p {
