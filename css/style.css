@@ -210,6 +210,13 @@ hr {
     box-sizing: border-box;
   }
 
+  .sobre img {
+    display: flex;
+    justify-self: center;
+    width: 100%;
+    margin: 0;
+  }
+
   .sobre h2 {
     max-width: 30ch;
     justify-self: center;
@@ -230,7 +237,7 @@ hr {
   }
 
   .sobre h2 {
-    max-width: 30ch;
+    max-width: 35ch;
     font-size: 1rem;
     text-align: center;
   }
